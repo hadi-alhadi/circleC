@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run : 
-        command: npm install
+          command: npm install
       - run :
-        command: npm test
+          name: Test
+          command: npm test
